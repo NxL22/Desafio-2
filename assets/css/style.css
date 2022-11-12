@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.header{
+    background-image: url("../imgs/banner1.jpeg");
+    height: 12rem;
+    background-size: cover;
+    background-position: center;
+    padding: 33px;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+/*! no supe como hacer que mi texto de productos pudiera ponerlo como queria*/
+.header p {
+    font-size: 40px;
+    color:whitesmoke;
+}
+body{
+    font-size: 35px;
+}
+.productos {
+    width: 90%;
+    margin: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    margin-top: 5px;
+    margin-left: 22px;
+}
+
+.productos p {
+    font-family: Verdana, Tahoma, sans-serif;
+    color: darkcyan;
+}
+
+.footer {
+    line-height: 56px;
+    margin: 0px;
+    font-weight: 80%;
+    background-color: chocolate;
+    text-align: center;
+}
